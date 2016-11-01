@@ -1,0 +1,24 @@
+{
+  "name": "sql-batch-helper-sample",
+  "version": "0.0.1-pre1",
+  "description": "Sample web-sql-batch-helper app using jspm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher J. Brody",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "jspm": "^0.16.47"
+  },
+  "jspm": {
+    "dependencies": {
+      "web-sql-batch-helper": "npm:web-sql-batch-helper@^0.1.0-pre3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
